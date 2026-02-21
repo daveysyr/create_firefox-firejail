@@ -1,5 +1,10 @@
 # create_firefox-firejail
-How to create a firejail instance for firefox
+How to create a firejail instance for firefox.
+
+The below is confirmed to work in Debian Linux and should work in any other Linux distro. Use of this routine allows the user to set up sandboxed instances of firefox, so that websites can't leak details to other websites. The routine can also be used to create isolated profiles for work, home, etc.
+
+Note: If you have a specific style of setup for firefox, set it up in the template before you clone it to other profiles.
+
 
 # Firejail + Firefox ESR Site Isolation (Linux)
 
