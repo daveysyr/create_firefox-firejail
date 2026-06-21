@@ -129,7 +129,7 @@ Example content:
     [Desktop Entry]
     Name=Facebook (Isolated)
     Comment=Facebook in Firejail sandbox
-    Exec=env HOME=/home/USERNAME/firejail-<site> firejail --noprofile firefox-esr --no-remote <url>
+    Exec=env HOME=/home/USERNAME/firejail-<site> firejail --noprofile firefox-esr <url>
     
     Icon=desktop.warning
     Terminal=false
