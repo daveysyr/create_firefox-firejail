@@ -131,7 +131,7 @@ Example content:
     Comment=Facebook in Firejail sandbox
     Exec=env HOME=/home/USERNAME/firejail-<site> firejail --noprofile firefox-esr <url>
     
-    Icon=desktop.warning
+    Icon=web-browser
     Terminal=false
     Type=Application
     Categories=Network;WebBrowser;
