@@ -144,7 +144,9 @@ USERNAME for your actual username
 <site> for the name of your choice (e.g. firejail-facebook)  
 <url> for the URL of the site, including the https:// part  
 
-###or it'll not work!
+### or it'll not work!
+
+---
 
 Make executable:
 
