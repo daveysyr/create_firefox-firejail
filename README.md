@@ -136,8 +136,9 @@ Example content:
     Type=Application
     Categories=Network;WebBrowser;
 
+---
 
-### Make sure that you swap:
+Make sure that you swap:
 
     USERNAME for your actual username
     <site> for the name of your choice (e.g. firejail-facebook)
