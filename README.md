@@ -127,11 +127,17 @@ Example content:
     [Desktop Entry]
     Name=Facebook (Isolated)
     Comment=Facebook in Firejail sandbox
-    Exec=env HOME=/home/USERNAME/firejail-facebook firejail --noprofile firefox-esr https://www.facebook.com
+    Exec=env HOME=/home/USERNAME/firejail-<site> firejail --noprofile firefox-esr --no-remote <url>
+    
     Icon=firefox-esr
     Terminal=false
     Type=Application
     Categories=Network;WebBrowser;
+
+
+Make sure that you swap USERNAME for your actual username and <site> for the name of your choice (e.g. firejail-facebook) or it'll not work!
+
+
 
 Make executable:
 
