@@ -129,13 +129,19 @@ Example content:
     Comment=Facebook in Firejail sandbox
     Exec=env HOME=/home/USERNAME/firejail-<site> firejail --noprofile firefox-esr --no-remote <url>
     
-    Icon=firefox-esr
+    Icon=desktop.warning
     Terminal=false
     Type=Application
     Categories=Network;WebBrowser;
 
 
-Make sure that you swap USERNAME for your actual username and <site> for the name of your choice (e.g. firejail-facebook) or it'll not work!
+### Make sure that you swap:
+
+    USERNAME for your actual username
+    <site> for the name of your choice (e.g. firejail-facebook)
+    <url> for the URL of the site, including the https:// part
+    
+    ...or it'll not work!
 
 
 
